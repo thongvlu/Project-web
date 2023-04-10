@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <!-- =====  BASIC PAGE NEEDS  ===== -->
+  <meta charset="utf-8">
+  <title>OYEENok E-commerce Bootstrap Template</title>
+  <!-- =====  SEO MATE  ===== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="distribution" content="global">
+  <meta name="revisit-after" content="2 Days">
+  <meta name="robots" content="ALL">
+  <meta name="rating" content="8 YEARS">
+  <meta name="Language" content="en-us">
+  <meta name="GOOGLEBOT" content="NOARCHIVE">
+  <!-- =====  MOBILE SPECIFICATION  ===== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width">
+  <!-- =====  CSS  ===== -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+
+<body>
+  <!-- =====  LODER  ===== -->
+  <div class="loder"></div>
+  <div class="wrapper">
+<!-- =====  HEADER START  ===== -->
+<header id="header">
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="header-top-left">
+            <div class="contact"><a href="#">Call now !</a> <span class="hidden-xs hidden-sm hidden-md">+84 987-654-321</span></div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-8">
+          <ul class="header-top-right text-right">
+            <li class="account"><a href="login.html">Tài khoản</a></li>
+            <li class="language dropdown"> <span class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Ngôn ngữ <span class="caret"></span> </span>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">English</a></li>
+                <li><a href="#">Vietnamese</a></li>
+              </ul>
+            </li>
+            <li class="currency dropdown"> <span class="dropdown-toggle" id="dropdownMenu12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Tiền tệ <span class="caret"></span> </span>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu12">
+                <li><a href="#">đ VN Đồng</a></li>
+                <li><a href="#">$ US Dollar</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="main-search mt_40">
+            <input id="search-input" name="search" value="" placeholder="Tìm kiếm" class="form-control input-lg" autocomplete="off" type="text">
+            <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
+          </span> </div>
+        </div>
+        <div class="navbar-header col-xs-6 col-sm-4"> <a class="navbar-brand" href="index.html"> <img alt="OYEENok" src="./images/logoartist.png"> </a> </div>
+        <div class="col-xs-6 col-sm-4 shopcart">
+          <div id="cart" class="btn-group btn-block mtb_40">
+            <button type="button" class="btn" data-target="#cart-dropdown" data-toggle="collapse" aria-expanded="true"><span id="shippingcart">Giỏ hàng</span><span id="cart-total">sản phẩm (2)</span> </button>
+          </div>
+          <div id="cart-dropdown" class="cart-menu collapse">
+            <ul>
+              <li>
+                <table class="table table-striped">
+                  <tbody>
+                    <tr>
+                      <td class="text-center"><a href="#"><img src="./images/product/70X84-1.png" alt="iPod Classic" title="iPod Classic"></a></td>
+                      <td class="text-left product-name"><a href="#">ÁO BLAZER</a> <span class="text-left price">999.000đ</span>
+                        <input class="cart-qty" name="product_quantity" min="1" value="1" type="number">
+                      </td>
+                      <td class="text-center"><a class="close-cart"><i class="fa fa-times-circle"></i></a></td>
+                    </tr>
+                    <tr>
+                      <td class="text-center"><a href="#"><img src="./images/product/70X84-2.png" alt="iPod Classic" title="iPod Classic"></a></td>
+                      <td class="text-left product-name"><a href="#">GIÀY GAVI NAM</a> <span class="text-left price">799.000đ</span>
+                        <input class="cart-qty" name="product_quantity" min="1" value="1" type="number">
+                      </td>
+                      <td class="text-center"><a class="close-cart"><i class="fa fa-times-circle"></i></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+
+              <li>
+                <form action="cart_page.html">
+                  <input class="btn pull-left mt_10" value="Xem giỏ hàng" type="submit">
+                </form>
+                <form action="checkout_page.html">
+                  <input class="btn pull-right mt_10" value="Thanh toán" type="submit">
+                </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar">
+        <p>Menu</p>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse"> <span class="i-bar"><i class="fa fa-bars"></i></span></button>
+        <div class="collapse navbar-collapse js-navbar-collapse">
+          <ul id="menu" class="nav navbar-nav">
+            <li> <a href="index.html">Trang chủ</a></li>
+            <li> <a href="category_page_Women.html">Nữ</a></li>
+            <li> <a href="category_page_Men.html">Nam</a></li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Các trang liên quan </a>
+              <ul class="dropdown-menu">
+                <li> <a href="contact_us.html">Liên hệ chúng tôi</a></li>
+                <li> <a href="cart_page.html">Giỏ hàng</a></li>
+                <li> <a href="checkout_page.html">Thanh toán</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.nav-collapse -->
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- =====  HEADER END  ===== -->
+    <!-- =====  CONTAINER START  ===== -->
+    <div class="container">
+      <div class="row ">
+        <!-- =====  BANNER STRAT  ===== -->
+        <div class="col-sm-12">
+          <div class="breadcrumb ptb_20">
+            <h1>Giỏ hàng</h1>
+            <ul>
+              <li><a href="index.html">Trang chủ</a></li>
+              <li class="active">Giỏ hàng</li>
+            </ul>
+          </div>
+        </div>
+        <!-- =====  BREADCRUMB END===== -->
+        <div id="column-left" class="col-sm-4 col-lg-3 hidden-xs">
+          <div id="category-menu" class="navbar collapse in mb_40" aria-expanded="true" style="" role="button">
+            <div class="nav-responsive">
+              <div class="heading-part">
+                <h2 class="main_title">MỤC LỤC</h2>
+              </div>
+              <ul class="nav  main-navigation collapse in">
+                <li><a href="#">Quần</a></li>
+                <li><a href="#">Áo</a></li>
+                <li><a href="#">Nón</a></li>
+                <li><a href="#">Nước hoa</a></li>
+                <li><a href="#">Túi</a></li>
+                <li><a href="#">Giày</a></li>
+                <li><a href="#">Phụ kiện</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="left_banner left-sidebar-widget mb_50 mt_30"> <a href="#"><img src="./images/product-Women/Women_banner_left.png" alt="Left Banner" class="img-responsive" /></a> </div>
+          <div class="left-special left-sidebar-widget mb_50">
+            <div class="heading-part mb_20 ">
+              <h2 class="main_title">SẢN PHẨM </h2>
+            </div>
+            <div id="left-special" class="owl-carousel">
+              <ul class="row ">
+                <li class="item product-layout-left mb_20">
+                  <div class="product-list col-xs-4">
+                    <div class="product-thumb">
+                      <div class="image product-imageblock"> <a href="./images/product-Men/men_13_left.jpg"> <img class="img-responsive" title="iPod Classic" alt="iPod Classic" src="./images/product-Men/men_13_left.jpg"> <img class="img-responsive" title="iPod Classic" alt="iPod Classic" src="images/product/product1-1.jpg"> </a> </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-8">
+                    <div class="caption product-detail">
+                      <h6 class="product-name"><a href="#">ÁO SƠ MI NAM</a></h6>
+                      <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span> </div>
+                      <span class="price"><span class="amount">299.000</span><span class="currencySymbol">đ</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="item product-layout-left mb_20">
+                  <div class="product-list col-xs-4">
+                    <div class="product-thumb">
+                      <div class="image product-imageblock"> <a href="./images/product-Men/men_14_left.jpg"> <img class="img-responsive" title="iPod Classic" alt="iPod Classic" src="./images/product-Men/men_14_left.jpg"> <img class="img-responsive" title="iPod Classic" alt="iPod Classic" src="images/product/product3-1.jpg"> </a> </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-8">
+                    <div class="caption product-detail">
+                      <h6 class="product-name"><a href="#">GIÀY BATA TRẮNG</a></h6>
+                      <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span> </div>
+                      <span class="price"><span class="amount">359.000</span><span class="currencySymbol">đ</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="item product-layout-left mb_20">
+                  <div class="product-list col-xs-4">
+                    <div class="product-thumb">
+                      <div class="image product-imageblock"> <a href="./images/product-Men/men_15_left.jpg"> <img class="img-responsive" title="iPod Classic" alt="iPod Classic" src="./images/product-Men/men_15_left.jpg"> <img class="img-responsive" title="iPod Classic" alt="iPod Classic" src="images/product/product4-1.jpg"> </a> </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-8">
+                    <div class="caption product-detail">
+                      <h6 class="product-name"><a href="#">MŨ BUCKET</a></h6>
+                      <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span> </div>
+                      <span class="price"><span class="amount">259.000</span><span class="currencySymbol">đ</span>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 col-lg-9 mtb_20">
+          <form enctype="multipart/form-data" method="post" action="#">
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <td class="text-center">Hình ảnh</td>
+                    <td class="text-left">Tên sản phẩm</td>
+                    <td class="text-left">Loại</td>
+                    <td class="text-left">Số lượng</td>
+                    <td class="text-right">Đơn giá</td>
+                    <td class="text-right">Tổng</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-center"><a href="#"><img src="./images/product/70X84-1.png" alt="iPod Classic" title="iPod Classic"></a></td>
+                    <td class="text-left"><a href="product.html">Áo</a></td>
+                    <td class="text-left">Áo Blazer</td>
+                    <td class="text-left">
+                      <div style="max-width: 200px;" class="input-group btn-block">
+                        <input type="text" class="form-control quantity" size="1" value="1" name="quantity">
+                        <span class="input-group-btn">
+                      <button class="btn" title="" data-toggle="tooltip" type="submit" data-original-title="Update"><i class="fa fa-refresh"></i></button>
+                      <button  class="btn btn-danger" title="" data-toggle="tooltip" type="button" data-original-title="Remove"><i class="fa fa-times-circle"></i></button>
+                      </span></div>
+                    </td>
+                    <td class="text-right">999.000đ</td>
+                    <td class="text-right">999.000đ</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center"><a href="#"><img src="./images/product/70X84-2.png" alt="iPod Classic" title="iPod Classic"></a></td>
+                    <td class="text-left"><a href="product.html">Giày</a></td>
+                    <td class="text-left">Giày Gavi</td>
+                    <td class="text-left">
+                      <div style="max-width: 200px;" class="input-group btn-block">
+                        <input type="text" class="form-control quantity" size="1" value="1" name="quantity">
+                        <span class="input-group-btn">
+                      <button class="btn" title="" data-toggle="tooltip" type="submit" data-original-title="Update"><i class="fa fa-refresh"></i></button>
+                      <button  class="btn btn-danger" title="" data-toggle="tooltip" type="button" data-original-title="Remove"><i class="fa fa-times-circle"></i></button>
+                      </span></div>
+                    </td>
+                    <td class="text-right">799.000đ</td>
+                    <td class="text-right">799.000đ</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </form>
+          <div class="panel-group mt_20" id="accordion">
+            <div class="panel panel-default pull-left">
+              <div class="panel-heading">
+                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Nhập code giảm giá <i class="fa fa-caret-down"></i></a></h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <label for="input-coupon" class="col-sm-4 control-label">Nhập code giảm giá ở đây</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="input-coupon" placeholder="Nhập code đây" value="" name="coupon">
+                    <span class="input-group-btn">
+                  <input type="button" class="btn" data-loading-text="Loading..." id="button-coupon" value="Nhập">
+                  </span> </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-8">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td class="text-right"><strong>Tổng tiền hàng:</strong></td>
+                    <td class="text-right">1.798.000đ</td>
+                  </tr>
+                  <tr>
+                    <td class="text-right"><strong>Code giảm:</strong></td>
+                    <td class="text-right">10.000đ</td>
+                  </tr>
+                  <tr>
+                    <td class="text-right"><strong>Tổng thanh toán:</strong></td>
+                    <td class="text-right">1.788.000đ</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <form action="index.html">
+            <input class="btn pull-left mt_30" type="submit" value="Tiếp tục mua sắm" />
+          </form>
+          <form action="checkout.html">
+            <input class="btn pull-right mt_30" type="submit" value="Thanh toán" />
+          </form>
+        </div>
+      </div>
+      <div id="brand_carouse" class="ptb_30 text-center">
+        <div class="type-01">
+          <div class="heading-part mb_20 ">
+            <h2 class="main_title">Brand Logo</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="brand owl-carousel ptb_20">
+                <div class="item text-center"> <a href="#"><img src="images/brand/brand1.png" alt="Disney" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src="images/brand/brand2.png" alt="Dell" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src="images/brand/brand3.png" alt="Harley" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src="images/brand/brand4.png" alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src="images/brand/brand5.png" alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src="images/brand/brand6.png" alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src="images/brand/brand7.png" alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src="images/brand/brand8.png" alt="Canon" class="img-responsive" /></a> </div>
+                <div class="item text-center"> <a href="#"><img src="images/brand/brand9.png" alt="Canon" class="img-responsive" /></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====  CONTAINER END  ===== -->
+    <!-- =====  FOOTER START  ===== -->
+    <div class="footer pt_60">
+      <div class="container">
+        <div class="row">
+          <div class="footer-top pb_60 mb_30">
+            <div class="col-xs-12 col-sm-6">
+              <div class="footer-logo"> <a href="index.html"> <img src="./images/logoartist.png" alt="VINTAGE"> </a> </div>
+              <div class="footer-desc">Với 20 năm kinh nghiệm làm việc với vô số các thương hiệu nổi tiếng khác, thương hiệu thời trang Vintage chúng tôi cam kết sẽ mang đến cho khách hàng những trải nghiệm thực tế với những sản phẩm độc quyền khi mua trên website của Vintage.</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 footer-block">
+            <h6 class="footer-title ptb_20">Thông tin</h6>
+            <ul>
+              <li><a href="#">Thông tin chúng tôi</a></li>
+              <li><a href="#">Thông tin mua bán</a></li>
+              <li><a href="#">Bảo vệ quyền lợi</a></li>
+              <li><a href="#">Điều khoản & điều kiện</a></li>
+              <li><a href="contact.html">Liên hệ chúng tôi</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-block">
+            <h6 class="footer-title ptb_20">Dịch vụ</h6>
+            <ul>
+              <li><a href="#">Đổi trả</a></li>
+              <li><a href="#">Bản đồ web</a></li>
+              <li><a href="#">Danh sách mong muốn</a></li>
+              <li><a href="#">Đăng nhập</a></li>
+              <li><a href="#">Lịch sử đặt hàng</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-block">
+            <h6 class="footer-title ptb_20">Bổ sung</h6>
+            <ul>
+              <li><a href="#">Thương hiệu</a></li>
+              <li><a href="#">Quà tri ân</a></li>
+              <li><a href="#">Liên kết</a></li>
+              <li><a href="#">Đặc biệt</a></li>
+              <li><a href="#">Bản tin</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-block">
+            <h6 class="footer-title ptb_20">Liên hệ</h6>
+            <ul>
+              <li>234 Vườn Lài, phường Phú Thọ hoà, quận Tân Phú</li>
+              <li>(+84) 987-654-321
+              <li>vintagestore@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom mt_60 ptb_20">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="social_icon">
+                <ul>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="copyright-part text-center">@ 2017 All Rights Reserved Vintage</div>
+            </div>
+            <div class="col-sm-4">
+              <div class="payment-icon text-right">
+                <ul>
+                  <li><i class="fa fa-cc-paypal "></i></li>
+                  <li><i class="fa fa-cc-visa"></i></li>
+                  <li><i class="fa fa-cc-discover"></i></li>
+                  <li><i class="fa fa-cc-mastercard"></i></li>
+                  <li><i class="fa fa-cc-amex"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====  FOOTER END  ===== -->
+  </div>
+  <a id="scrollup"></a>
+  <script src="js/jQuery_v3.1.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
